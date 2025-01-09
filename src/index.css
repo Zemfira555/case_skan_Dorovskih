@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'Ferry';
+        src: url(/fonts/ferry.otf) format('truetype');
+    }
+}
+
+.slick-slide:not(:last-child) {
+  padding: 20px 5px 50px;
+  border-radius: 15px;
+}
+
+.slick-slide {
+  padding: 10px;
+}
